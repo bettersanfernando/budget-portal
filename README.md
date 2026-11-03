@@ -168,7 +168,7 @@ scripts/build-poster.ts  npm run build:poster → docs/poster/
 examples/             a DEO, a city, a municipality
 ```
 
-Keeping a fork in step with this repository: [docs/upstream-maintenance.md](docs/upstream-maintenance.md).
+Maintaining this fork against BetterGov upstream: [docs/upstream-maintenance.md](docs/upstream-maintenance.md).
 
 ## Licence
 

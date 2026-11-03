@@ -42,12 +42,14 @@ upstream copy of it must never replace it:
 | `scope.exclude` | `dpwh:house-reading:4112` (Minalin, outside the city); `dpwh:house-reading:12536` (held: coordinates conflict with the stated location) |
 | `reporting` | `enabled: false` |
 
-Beyond that file, the fork differs from upstream in three places. Look at them first when a
-sync conflicts:
+Other known fork-specific differences currently include the files below. Look at them first when
+a sync conflicts:
 
-- `vite.config.ts`: the meta description wording (IAN-11).
-- `src/pages/Home.tsx`: the home route's runtime page title (IAN-11).
-- `docs/validation-san-fernando-fy2027.md` and this file: fork-only documentation.
+- `vite.config.ts`: BetterSanFernando meta-description wording.
+- `src/pages/Home.tsx`: BetterSanFernando runtime page title.
+- `docs/validation-san-fernando-fy2027.md`: fork-specific validation documentation.
+- `docs/upstream-maintenance.md`: fork maintenance instructions.
+- `README.md`: link to the fork maintenance guide.
 
 Compare with upstream at any time: `git diff upstream/main --stat`.
 
