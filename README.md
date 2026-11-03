@@ -168,6 +168,8 @@ scripts/build-poster.ts  npm run build:poster → docs/poster/
 examples/             a DEO, a city, a municipality
 ```
 
+Keeping a fork in step with this repository: [docs/upstream-maintenance.md](docs/upstream-maintenance.md).
+
 ## Licence
 
 MIT. The budget documents are works of the Philippine government; the comparison data
