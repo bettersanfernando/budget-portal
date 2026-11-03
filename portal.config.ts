@@ -10,7 +10,8 @@ export default defineConfig({
   name: "City of San Fernando, Pampanga",
   shortName: "San Fernando",
   operator: {
-    name: "BetterSanFernando"
+    name: "BetterSanFernando",
+    url: "https://bettersanfernando.org"
   },
   scope: {
     offices: [],
