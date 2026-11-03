@@ -9,6 +9,7 @@ export default defineConfig({
   kind: "city",
   name: "City of San Fernando, Pampanga",
   shortName: "San Fernando",
+  siteUrl: "https://budget.bettersanfernando.org",
   operator: {
     name: "BetterSanFernando",
     url: "https://bettersanfernando.org"
