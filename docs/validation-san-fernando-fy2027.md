@@ -98,7 +98,7 @@ city, not because of the office, and that is correct:
 - House-only is an evidence state, not proof of an enacted change. The API notice also says
   absence from its snapshot does not establish absence from the published NEP. The 2027 figures
   are proposals in the NEP and House bill, not spending.
-- Only `portal.config.ts` differs from `main`. No source, dependency or UI file changed.
+- Before this documentation-only validation commit, only `portal.config.ts` differed from `main`; this PR adds only this validation document and makes no source, dependency, configuration, or UI changes.
 
 ## Caveats
 
