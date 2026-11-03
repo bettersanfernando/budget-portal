@@ -24,7 +24,7 @@ const SORTS: Record<Sort, { label: string; cmp: (a: ScopedProject, b: ScopedProj
 
 export default function Home() {
   const { scope, overview, config } = usePortal();
-  useTitle(`Every FY 2027 project · ${shortNameOf(config)}`);
+  useTitle(`FY 2027 national-budget project lines · ${shortNameOf(config)}`);
   const datasets = overview.status === 'ready' ? overview.value.data.datasets : [];
   return (
     <main className="page main">
